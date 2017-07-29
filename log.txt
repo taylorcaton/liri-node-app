@@ -31,3 +31,15 @@ Rated: 		R
 Genre: 		Drama, Fantasy, Romance
 Plot : 		A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
 Actors : 		Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+
+TIME:	Sat Jul 29 2017 13:42:18 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js my-tweets 
+Sat Jul 29 01:54:32 +0000 2017
+BRING BACK DOWNTON ABBEY
+
+Sat Jul 29 01:21:19 +0000 2017
+And in the end, the love you take is equal to the love you make.... aaaaaaaAAAAAAAAAHHHHHHHHH
+
+Fri Jul 28 12:58:10 +0000 2017
+Tweet Numero Uno!
+
