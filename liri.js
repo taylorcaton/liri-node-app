@@ -133,7 +133,15 @@ function helloLiri(arg, arg2){
         
         break;
     
+    case "help":
+        console.log("movie-this [movie title]: displays movie info");
+        console.log("my-tweets: displays tweets from TaylorLiriBot");
+        console.log("spotify-this-song [song title]: displays song / album info");
+        console.log("do-what-it-says: show me BSB song info");
+        break;
+
     default:
+        console.log("type \'help\' for a list of commands")
         break;
     }
 }

@@ -43,3 +43,37 @@ And in the end, the love you take is equal to the love you make.... aaaaaaaAAAAA
 Fri Jul 28 12:58:10 +0000 2017
 Tweet Numero Uno!
 
+
+TIME:		Sat Jul 29 2017 13:48:09 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js movie-this Emoji Movie
+Title: 		The Emoji Movie
+Year : 		2017
+IMDB : 		N/A
+RotTom: 	No Score
+Country: 	USA
+Lang: 		English
+Rated: 		PG
+Genre: 		Animation, Adventure, Comedy
+Plot : 		Gene, a multi-expressional emoji, sets out on a journey to become a normal emoji.
+Actors : 		T.J. Miller, James Corden, Anna Faris, Maya Rudolph
+
+TIME:	Sat Jul 29 2017 14:01:39 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js spotify-this-song I hurt myself
+Artist: 	Dan Bull
+Track: 		I Hurt Myself
+Album: 		Hip Hop Hooray
+Link: 		https://open.spotify.com/track/6ZLPPdWFEIyEvUmZuMG1s4
+
+TIME:	Sat Jul 29 2017 18:35:17 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js spotify-this-song Yellow Brick Road
+Artist: 	Elton John
+Track: 		Bennie And The Jets - Remastered 2014
+Album: 		Goodbye Yellow Brick Road (40th Anniversary Celebration)
+Link: 		https://open.spotify.com/track/5Wj1rJnCLpMHdLaxsFtJLs
+
+TIME:	Sat Jul 29 2017 18:35:35 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js spotify-this-song Goodbye Yellow Brick Road
+Artist: 	Elton John
+Track: 		Bennie And The Jets - Remastered 2014
+Album: 		Goodbye Yellow Brick Road (40th Anniversary Celebration)
+Link: 		https://open.spotify.com/track/5Wj1rJnCLpMHdLaxsFtJLs
