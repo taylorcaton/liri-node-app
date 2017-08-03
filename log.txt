@@ -98,3 +98,111 @@ Artist: 	Backstreet Boys
 Track: 		I Want It That Way
 Album: 		The Hits--Chapter One
 Link: 		https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+
+TIME:	Thu Aug 03 2017 09:28:38 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js my-tweets 
+Mon Jul 31 11:57:06 +0000 2017
+Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
+
+Sat Jul 29 01:54:32 +0000 2017
+BRING BACK DOWNTON ABBEY
+
+Sat Jul 29 01:21:19 +0000 2017
+And in the end, the love you take is equal to the love you make.... aaaaaaaAAAAAAAAAHHHHHHHHH
+
+Fri Jul 28 12:58:10 +0000 2017
+Tweet Numero Uno!
+
+
+TIME:	Thu Aug 03 2017 09:29:22 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js my-tweets 
+Mon Jul 31 11:57:06 +0000 2017
+Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
+
+Sat Jul 29 01:54:32 +0000 2017
+BRING BACK DOWNTON ABBEY
+
+Sat Jul 29 01:21:19 +0000 2017
+And in the end, the love you take is equal to the love you make.... aaaaaaaAAAAAAAAAHHHHHHHHH
+
+Fri Jul 28 12:58:10 +0000 2017
+Tweet Numero Uno!
+
+
+TIME:	Thu Aug 03 2017 09:35:23 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js my-tweets 
+Mon Jul 31 11:57:06 +0000 2017
+Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
+
+Sat Jul 29 01:54:32 +0000 2017
+BRING BACK DOWNTON ABBEY
+
+Sat Jul 29 01:21:19 +0000 2017
+And in the end, the love you take is equal to the love you make.... aaaaaaaAAAAAAAAAHHHHHHHHH
+
+Fri Jul 28 12:58:10 +0000 2017
+Tweet Numero Uno!
+
+
+TIME:	Thu Aug 03 2017 09:35:58 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js my-tweets 
+Mon Jul 31 11:57:06 +0000 2017
+Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
+
+Sat Jul 29 01:54:32 +0000 2017
+BRING BACK DOWNTON ABBEY
+
+Sat Jul 29 01:21:19 +0000 2017
+And in the end, the love you take is equal to the love you make.... aaaaaaaAAAAAAAAAHHHHHHHHH
+
+Fri Jul 28 12:58:10 +0000 2017
+Tweet Numero Uno!
+
+
+TIME:		Thu Aug 03 2017 09:36:36 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js movie-this Back to the Future
+Title: 		Back to the Future
+Year : 		1985
+IMDB : 		8.5
+RotTom: 	96%
+Country: 	USA
+Lang: 		English
+Rated: 		PG
+Genre: 		Adventure, Comedy, Sci-Fi
+Plot : 		Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.
+Actors : 		Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover
+
+TIME:		Thu Aug 03 2017 09:38:40 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js movie-this Back to the Future
+Title: 		Back to the Future
+Year : 		1985
+IMDB : 		8.5
+RotTom: 	96%
+Country: 	USA
+Lang: 		English
+Rated: 		PG
+Genre: 		Adventure, Comedy, Sci-Fi
+Plot : 		Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.
+Actors : 		Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover
+
+TIME:	Thu Aug 03 2017 09:38:45 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js my-tweets 
+Mon Jul 31 11:57:06 +0000 2017
+Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
+
+Sat Jul 29 01:54:32 +0000 2017
+BRING BACK DOWNTON ABBEY
+
+Sat Jul 29 01:21:19 +0000 2017
+And in the end, the love you take is equal to the love you make.... aaaaaaaAAAAAAAAAHHHHHHHHH
+
+Fri Jul 28 12:58:10 +0000 2017
+Tweet Numero Uno!
+
+
+TIME:	Thu Aug 03 2017 09:39:08 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js spotify-this-song The Sign Ace of Base
+Artist: 	Ace of Base
+Track: 		The Sign
+Album: 		The Sign (US Album) [Remastered]
+Link: 		https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE

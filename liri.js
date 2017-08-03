@@ -2,13 +2,17 @@ var param1 = process.argv[2];
 var param2 = process.argv[3];
 var keys = require("./keys.js");
 var fs = require("fs");
+var ora = require('ora');
+var spinner = ora('Reticulating Splines...');
 
 helloLiri(param1, param2);
+
 
 function helloLiri(arg, arg2){
     switch (arg) {
     case "movie-this":
         
+        spinnerFunc(true);
         var request = require("request");
         if(arg2 === undefined){
             arg2 = "Mr. Nobody";
@@ -57,43 +61,47 @@ function helloLiri(arg, arg2){
             console.log(outputStr);
             date = new Date();
             writeToLog("\nTIME:\t\t"+date+"\nCMD:\t\t node liri.js movie-this "+arg2+"\n"+ outputStr);
+            spinnerFunc(false);
         });
 
         break;
     
     case "my-tweets":
-            var Twitter = require("twitter");
+        spinnerFunc(true);
+        var Twitter = require("twitter");
 
-            var client = new Twitter({
-                consumer_key: keys.twitterKeys.consumer_key,
-                consumer_secret: keys.twitterKeys.consumer_secret,
-                access_token_key: keys.twitterKeys.access_token_key,
-                access_token_secret: keys.twitterKeys.access_token_secret
-            });
+        var client = new Twitter({
+            consumer_key: keys.twitterKeys.consumer_key,
+            consumer_secret: keys.twitterKeys.consumer_secret,
+            access_token_key: keys.twitterKeys.access_token_key,
+            access_token_secret: keys.twitterKeys.access_token_secret
+        });
 
-            var params = {screen_name: 'TaylorLiri'};
-            client.get('statuses/user_timeline', params, function(error, tweets, response) {
-            
-                // console.log(response);
-                var outputStr = "";
+        var params = {screen_name: 'TaylorLiri'};
+        client.get('statuses/user_timeline', params, function(error, tweets, response) {
+        
+            // console.log(response);
+            var outputStr = "";
 
-                if (!error) {
-                    var myTweets = tweets;
-                    for (var i = 0; i < myTweets.length; i++) {
-                        outputStr += myTweets[i].created_at + "\n";
-                        outputStr += myTweets[i].text + "\n\n";
-                    }
-
-                    console.log(outputStr);
-                    date = new Date();
-                    writeToLog("\nTIME:\t"+date+"\nCMD:\t\t node liri.js my-tweets \n"+ outputStr);
+            if (!error) {
+                var myTweets = tweets;
+                for (var i = 0; i < myTweets.length; i++) {
+                    outputStr += myTweets[i].created_at + "\n";
+                    outputStr += myTweets[i].text + "\n\n";
                 }
-            });
+
+                console.log(outputStr);
+                date = new Date();
+                writeToLog("\nTIME:\t"+date+"\nCMD:\t\t node liri.js my-tweets \n"+ outputStr);
+                spinnerFunc(false);
+            }
+        });
 
         break;
     
     case "spotify-this-song":
-            
+        
+        spinnerFunc(true);
         var Spotify = require('node-spotify-api');
         
         if (arg2 == undefined){
@@ -119,7 +127,7 @@ function helloLiri(arg, arg2){
             console.log(outputStr);
             date = new Date();
             writeToLog("\nTIME:\t"+date+"\nCMD:\t\t node liri.js spotify-this-song "+arg2+"\n"+ outputStr);
-            
+            spinnerFunc(false);
         });
                 
 
@@ -146,6 +154,7 @@ function helloLiri(arg, arg2){
         console.log(chalk.greenBright("type \'help\' for a list of commands"))
         break;
     }
+
 }
 
 
@@ -163,4 +172,15 @@ function writeToLog(input){
 
     })
 
+}
+
+function spinnerFunc(start){
+    
+    if(start){
+        spinner.start();
+    }else{
+        spinner.succeed("Loaded!");
+    }
+    
+    
 }
