@@ -1,39 +1,9 @@
 
-TIME:	Sat Jul 29 2017 12:20:14 GMT-0400 (Eastern Daylight Time)
-CMD:		 node liri.js spotify-this-song Back in the USSR
-Artist: 	The Beatles
-Track: 		Back In The U.S.S.R. - Remastered
-Album: 		The Beatles (Remastered)
-Link: 		https://open.spotify.com/track/0j3p1p06deJ7f9xmJ9yG22
-
-TIME:		Sat Jul 29 2017 12:22:05 GMT-0400 (Eastern Daylight Time)
-CMD:		 node liri.js movie-this Mr. Nobody
-Title: 		Mr. Nobody
-Year : 		2009
-IMDB : 		7.9
-RotTom: 	64%
-Country: 	Belgium, Germany, Canada, France, USA, UK
-Lang: 	English, Mohawk
-Rated: 		R
-Genre: 		Drama, Fantasy, Romance
-Plot : 		A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-Actors : 		Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-
-TIME:		Sat Jul 29 2017 12:22:30 GMT-0400 (Eastern Daylight Time)
-CMD:		 node liri.js movie-this Mr. Nobody
-Title: 		Mr. Nobody
-Year : 		2009
-IMDB : 		7.9
-RotTom: 	64%
-Country: 	Belgium, Germany, Canada, France, USA, UK
-Lang: 		English, Mohawk
-Rated: 		R
-Genre: 		Drama, Fantasy, Romance
-Plot : 		A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-Actors : 		Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-
-TIME:	Sat Jul 29 2017 13:42:18 GMT-0400 (Eastern Daylight Time)
+TIME:	Thu Aug 03 2017 12:38:41 GMT-0400 (Eastern Daylight Time)
 CMD:		 node liri.js my-tweets 
+Mon Jul 31 11:57:06 +0000 2017
+Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
+
 Sat Jul 29 01:54:32 +0000 2017
 BRING BACK DOWNTON ABBEY
 
@@ -44,62 +14,34 @@ Fri Jul 28 12:58:10 +0000 2017
 Tweet Numero Uno!
 
 
-TIME:		Sat Jul 29 2017 13:48:09 GMT-0400 (Eastern Daylight Time)
-CMD:		 node liri.js movie-this Emoji Movie
-Title: 		The Emoji Movie
-Year : 		2017
-IMDB : 		N/A
+TIME:		Thu Aug 03 2017 12:43:54 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js movie-this Hello
+Title: 		Hello
+Year : 		2008
+IMDB : 		3.4
 RotTom: 	No Score
-Country: 	USA
-Lang: 		English
-Rated: 		PG
-Genre: 		Animation, Adventure, Comedy
-Plot : 		Gene, a multi-expressional emoji, sets out on a journey to become a normal emoji.
-Actors : 		T.J. Miller, James Corden, Anna Faris, Maya Rudolph
+Country: 	India
+Lang: 		Hindi
+Rated: 		N/A
+Genre: 		Drama, Romance
+Plot : 		Hello... is a tale about the events that happen one night at a call center. Told through the views of the protagonist, Shyam, it is a story of almost lost love, thwarted ambitions, absence ...
+Actors : 		Bharti Achrekar, Amrita Arora, Sharman Joshi, Katrina Kaif
 
-TIME:	Sat Jul 29 2017 14:01:39 GMT-0400 (Eastern Daylight Time)
-CMD:		 node liri.js spotify-this-song I hurt myself
-Artist: 	Dan Bull
-Track: 		I Hurt Myself
-Album: 		Hip Hop Hooray
-Link: 		https://open.spotify.com/track/6ZLPPdWFEIyEvUmZuMG1s4
+TIME:	Thu Aug 03 2017 12:43:59 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js spotify-this-song Funk Rush
+Artist: 	Bobby Rush
+Track: 		Funk O’ De Funk
+Album: 		Porcupine Meat
+Link: 		https://open.spotify.com/track/1jBeE8TQtsXiluVbfudDGz
 
-TIME:	Sat Jul 29 2017 18:35:17 GMT-0400 (Eastern Daylight Time)
-CMD:		 node liri.js spotify-this-song Yellow Brick Road
-Artist: 	Elton John
-Track: 		Bennie And The Jets - Remastered 2014
-Album: 		Goodbye Yellow Brick Road (40th Anniversary Celebration)
-Link: 		https://open.spotify.com/track/5Wj1rJnCLpMHdLaxsFtJLs
+TIME:	Thu Aug 03 2017 12:44:14 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js spotify-this-song Putt Putt
+Artist: 	Youngbloodz
+Track: 		Grown Man Featuring Shawty Putt
+Album: 		Ev'rybody Know Me
+Link: 		https://open.spotify.com/track/2kA2m1ln4gEXXBBFkEUixt
 
-TIME:	Sat Jul 29 2017 18:35:35 GMT-0400 (Eastern Daylight Time)
-CMD:		 node liri.js spotify-this-song Goodbye Yellow Brick Road
-Artist: 	Elton John
-Track: 		Bennie And The Jets - Remastered 2014
-Album: 		Goodbye Yellow Brick Road (40th Anniversary Celebration)
-Link: 		https://open.spotify.com/track/5Wj1rJnCLpMHdLaxsFtJLs
-
-TIME:	Sun Jul 30 2017 12:09:00 GMT-0400 (Eastern Daylight Time)
-CMD:		 node liri.js spotify-this-song Why don't we do it
-[92mArtist: 	[39mThe Beatles
-Track: 		Why Don't We Do It In The Road? - Remastered
-Album: 		The Beatles (Remastered)
-Link: 		https://open.spotify.com/track/4eLIq1nQNwz2qLu8DeiWIp
-
-TIME:	Sun Jul 30 2017 12:09:43 GMT-0400 (Eastern Daylight Time)
-CMD:		 node liri.js spotify-this-song Why don't we do it
-[92mArtist: 	[39mThe Beatles
-[92mTrack: 		[39mWhy Don't We Do It In The Road? - Remastered
-[92mAlbum: 		[39mThe Beatles (Remastered)
-[92mLink: 		[39mhttps://open.spotify.com/track/4eLIq1nQNwz2qLu8DeiWIp
-
-TIME:	Tue Aug 01 2017 18:26:08 GMT-0400 (Eastern Daylight Time)
-CMD:		 node liri.js spotify-this-song "I Want it That Way"
-Artist: 	Backstreet Boys
-Track: 		I Want It That Way
-Album: 		The Hits--Chapter One
-Link: 		https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
-
-TIME:	Thu Aug 03 2017 09:28:38 GMT-0400 (Eastern Daylight Time)
+TIME:	Thu Aug 03 2017 12:44:37 GMT-0400 (Eastern Daylight Time)
 CMD:		 node liri.js my-tweets 
 Mon Jul 31 11:57:06 +0000 2017
 Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
@@ -114,7 +56,7 @@ Fri Jul 28 12:58:10 +0000 2017
 Tweet Numero Uno!
 
 
-TIME:	Thu Aug 03 2017 09:29:22 GMT-0400 (Eastern Daylight Time)
+TIME:	Thu Aug 03 2017 12:49:30 GMT-0400 (Eastern Daylight Time)
 CMD:		 node liri.js my-tweets 
 Mon Jul 31 11:57:06 +0000 2017
 Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
@@ -129,7 +71,7 @@ Fri Jul 28 12:58:10 +0000 2017
 Tweet Numero Uno!
 
 
-TIME:	Thu Aug 03 2017 09:35:23 GMT-0400 (Eastern Daylight Time)
+TIME:	Thu Aug 03 2017 12:50:11 GMT-0400 (Eastern Daylight Time)
 CMD:		 node liri.js my-tweets 
 Mon Jul 31 11:57:06 +0000 2017
 Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
@@ -144,7 +86,7 @@ Fri Jul 28 12:58:10 +0000 2017
 Tweet Numero Uno!
 
 
-TIME:	Thu Aug 03 2017 09:35:58 GMT-0400 (Eastern Daylight Time)
+TIME:	Thu Aug 03 2017 12:50:35 GMT-0400 (Eastern Daylight Time)
 CMD:		 node liri.js my-tweets 
 Mon Jul 31 11:57:06 +0000 2017
 Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
@@ -159,33 +101,7 @@ Fri Jul 28 12:58:10 +0000 2017
 Tweet Numero Uno!
 
 
-TIME:		Thu Aug 03 2017 09:36:36 GMT-0400 (Eastern Daylight Time)
-CMD:		 node liri.js movie-this Back to the Future
-Title: 		Back to the Future
-Year : 		1985
-IMDB : 		8.5
-RotTom: 	96%
-Country: 	USA
-Lang: 		English
-Rated: 		PG
-Genre: 		Adventure, Comedy, Sci-Fi
-Plot : 		Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.
-Actors : 		Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover
-
-TIME:		Thu Aug 03 2017 09:38:40 GMT-0400 (Eastern Daylight Time)
-CMD:		 node liri.js movie-this Back to the Future
-Title: 		Back to the Future
-Year : 		1985
-IMDB : 		8.5
-RotTom: 	96%
-Country: 	USA
-Lang: 		English
-Rated: 		PG
-Genre: 		Adventure, Comedy, Sci-Fi
-Plot : 		Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.
-Actors : 		Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover
-
-TIME:	Thu Aug 03 2017 09:38:45 GMT-0400 (Eastern Daylight Time)
+TIME:	Thu Aug 03 2017 12:52:08 GMT-0400 (Eastern Daylight Time)
 CMD:		 node liri.js my-tweets 
 Mon Jul 31 11:57:06 +0000 2017
 Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
@@ -200,9 +116,77 @@ Fri Jul 28 12:58:10 +0000 2017
 Tweet Numero Uno!
 
 
-TIME:	Thu Aug 03 2017 09:39:08 GMT-0400 (Eastern Daylight Time)
-CMD:		 node liri.js spotify-this-song The Sign Ace of Base
-Artist: 	Ace of Base
-Track: 		The Sign
-Album: 		The Sign (US Album) [Remastered]
-Link: 		https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+TIME:	Thu Aug 03 2017 12:52:40 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js my-tweets 
+Mon Jul 31 11:57:06 +0000 2017
+Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
+
+Sat Jul 29 01:54:32 +0000 2017
+BRING BACK DOWNTON ABBEY
+
+Sat Jul 29 01:21:19 +0000 2017
+And in the end, the love you take is equal to the love you make.... aaaaaaaAAAAAAAAAHHHHHHHHH
+
+Fri Jul 28 12:58:10 +0000 2017
+Tweet Numero Uno!
+
+
+TIME:	Thu Aug 03 2017 12:52:48 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js my-tweets 
+Mon Jul 31 11:57:06 +0000 2017
+Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
+
+Sat Jul 29 01:54:32 +0000 2017
+BRING BACK DOWNTON ABBEY
+
+Sat Jul 29 01:21:19 +0000 2017
+And in the end, the love you take is equal to the love you make.... aaaaaaaAAAAAAAAAHHHHHHHHH
+
+Fri Jul 28 12:58:10 +0000 2017
+Tweet Numero Uno!
+
+
+TIME:	Thu Aug 03 2017 12:53:27 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js my-tweets 
+Mon Jul 31 11:57:06 +0000 2017
+Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
+
+Sat Jul 29 01:54:32 +0000 2017
+BRING BACK DOWNTON ABBEY
+
+Sat Jul 29 01:21:19 +0000 2017
+And in the end, the love you take is equal to the love you make.... aaaaaaaAAAAAAAAAHHHHHHHHH
+
+Fri Jul 28 12:58:10 +0000 2017
+Tweet Numero Uno!
+
+
+TIME:	Thu Aug 03 2017 12:54:56 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js my-tweets 
+Mon Jul 31 11:57:06 +0000 2017
+Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
+
+Sat Jul 29 01:54:32 +0000 2017
+BRING BACK DOWNTON ABBEY
+
+Sat Jul 29 01:21:19 +0000 2017
+And in the end, the love you take is equal to the love you make.... aaaaaaaAAAAAAAAAHHHHHHHHH
+
+Fri Jul 28 12:58:10 +0000 2017
+Tweet Numero Uno!
+
+
+TIME:	Thu Aug 03 2017 12:55:30 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js my-tweets 
+Mon Jul 31 11:57:06 +0000 2017
+Steve Pearce has hit 2 walk-off GRAND SLAMS in 3 days. Unheard of.
+
+Sat Jul 29 01:54:32 +0000 2017
+BRING BACK DOWNTON ABBEY
+
+Sat Jul 29 01:21:19 +0000 2017
+And in the end, the love you take is equal to the love you make.... aaaaaaaAAAAAAAAAHHHHHHHHH
+
+Fri Jul 28 12:58:10 +0000 2017
+Tweet Numero Uno!
+

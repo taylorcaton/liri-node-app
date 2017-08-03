@@ -3,7 +3,13 @@ var param2 = process.argv[3];
 var keys = require("./keys.js");
 var fs = require("fs");
 var ora = require('ora');
-var spinner = ora('Reticulating Splines...');
+var spinner = ora( {
+    text:'Reticulating Splines...',
+    spinner: {
+        interval: 30, // optional 
+        frames: ["◜", "◠", "◝",	"◞", "◡", "◟"]
+    },
+});
 
 helloLiri(param1, param2);
 
@@ -26,7 +32,8 @@ function helloLiri(arg, arg2){
                 //check for Rotten Tomatoes Rating and store the index of the review
                 var Ratings = JSON.parse(body).Ratings;
                 if(Ratings === undefined){
-                    console.log("No Movie Found")
+                    console.log("\nNo Movie Found")
+                    spinnerFunc(false);
                     return;
                 }else{
                     var RotTomIndex = -1;
@@ -56,9 +63,15 @@ function helloLiri(arg, arg2){
                 outputStr += "Genre: \t\t" + JSON.parse(body).Genre +"\n";
                 outputStr += "Plot : \t\t" + JSON.parse(body).Plot +"\n";
                 outputStr += "Actors : \t\t" + JSON.parse(body).Actors +"\n";
+            }else{
+        
+                console.log('Error occurred: ' + error);
+                spinnerFunc(false);
+                return; 
+            
             }
 
-            console.log(outputStr);
+            console.log("\n"+outputStr);
             date = new Date();
             writeToLog("\nTIME:\t\t"+date+"\nCMD:\t\t node liri.js movie-this "+arg2+"\n"+ outputStr);
             spinnerFunc(false);
@@ -94,6 +107,10 @@ function helloLiri(arg, arg2){
                 date = new Date();
                 writeToLog("\nTIME:\t"+date+"\nCMD:\t\t node liri.js my-tweets \n"+ outputStr);
                 spinnerFunc(false);
+            }else{
+                console.log('Error occurred: ' + error);
+                spinnerFunc(false);
+                return; 
             }
         });
 
@@ -115,7 +132,9 @@ function helloLiri(arg, arg2){
         
         spotify.search({ type: 'track', query: arg2, limit: 1 }, function(err, data) {
             if (err) {
-                return console.log('Error occurred: ' + err);
+                console.log('Error occurred: ' + err);
+                spinnerFunc(false);
+                return;
             }
             var outputStr = "";
             var songData = data.tracks.items[0];
@@ -124,7 +143,7 @@ function helloLiri(arg, arg2){
             outputStr += "Album: \t\t" + songData.album.name + "\n";
             outputStr += "Link: \t\t" + songData.external_urls.spotify + "\n";
 
-            console.log(outputStr);
+            console.log("\n"+outputStr);
             date = new Date();
             writeToLog("\nTIME:\t"+date+"\nCMD:\t\t node liri.js spotify-this-song "+arg2+"\n"+ outputStr);
             spinnerFunc(false);
@@ -179,8 +198,7 @@ function spinnerFunc(start){
     if(start){
         spinner.start();
     }else{
-        spinner.succeed("Loaded!");
+        spinner.succeed("Done!");
     }
-    
     
 }
