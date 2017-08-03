@@ -134,14 +134,16 @@ function helloLiri(arg, arg2){
         break;
     
     case "help":
-        console.log("movie-this [movie title]: displays movie info");
-        console.log("my-tweets: displays tweets from TaylorLiriBot");
-        console.log("spotify-this-song [song title]: displays song / album info");
-        console.log("do-what-it-says: show me BSB song info");
+        var chalk = require('chalk')
+        console.log(chalk.yellowBright("movie-this [movie title]:")+ "displays movie info");
+        console.log(chalk.yellowBright("my-tweets:")+" displays tweets from TaylorLiriBot");
+        console.log(chalk.yellowBright("spotify-this-song [song title]:")+" displays song / album info");
+        console.log(chalk.yellowBright("do-what-it-says:")+" show me BSB song info");
         break;
 
     default:
-        console.log("type \'help\' for a list of commands")
+        var chalk = require('chalk');
+        console.log(chalk.greenBright("type \'help\' for a list of commands"))
         break;
     }
 }

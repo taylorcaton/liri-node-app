@@ -77,3 +77,24 @@ Artist: 	Elton John
 Track: 		Bennie And The Jets - Remastered 2014
 Album: 		Goodbye Yellow Brick Road (40th Anniversary Celebration)
 Link: 		https://open.spotify.com/track/5Wj1rJnCLpMHdLaxsFtJLs
+
+TIME:	Sun Jul 30 2017 12:09:00 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js spotify-this-song Why don't we do it
+[92mArtist: 	[39mThe Beatles
+Track: 		Why Don't We Do It In The Road? - Remastered
+Album: 		The Beatles (Remastered)
+Link: 		https://open.spotify.com/track/4eLIq1nQNwz2qLu8DeiWIp
+
+TIME:	Sun Jul 30 2017 12:09:43 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js spotify-this-song Why don't we do it
+[92mArtist: 	[39mThe Beatles
+[92mTrack: 		[39mWhy Don't We Do It In The Road? - Remastered
+[92mAlbum: 		[39mThe Beatles (Remastered)
+[92mLink: 		[39mhttps://open.spotify.com/track/4eLIq1nQNwz2qLu8DeiWIp
+
+TIME:	Tue Aug 01 2017 18:26:08 GMT-0400 (Eastern Daylight Time)
+CMD:		 node liri.js spotify-this-song "I Want it That Way"
+Artist: 	Backstreet Boys
+Track: 		I Want It That Way
+Album: 		The Hits--Chapter One
+Link: 		https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
