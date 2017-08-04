@@ -13,7 +13,6 @@ var spinner = ora( {
 
 helloLiri(param1, param2);
 
-
 function helloLiri(arg, arg2){
     switch (arg) {
     case "movie-this":
@@ -98,7 +97,11 @@ function helloLiri(arg, arg2){
 
             if (!error) {
                 var myTweets = tweets;
-                for (var i = 0; i < myTweets.length; i++) {
+                var limit = 20;
+                if(myTweets.length < 20){
+                    limit = myTweets.length;
+                }
+                for (var i = 0; i < limit; i++) {
                     outputStr += myTweets[i].created_at + "\n";
                     outputStr += myTweets[i].text + "\n\n";
                 }
@@ -170,12 +173,10 @@ function helloLiri(arg, arg2){
 
     default:
         var chalk = require('chalk');
-        console.log(chalk.greenBright("type \'help\' for a list of commands"))
+        console.log(chalk.greenBright("type \'node liri help\' for a list of commands"))
         break;
     }
-
 }
-
 
 function writeToLog(input){
 
